@@ -10,11 +10,11 @@ model=load_model('londonmodel.h5')
 
 
 def main():
-	"""London Airbnb Price Estimation With Geospatial Analysis"""
-	st.subheader("A Project By Tejashvi")
+	"""London Airbnb Price Estimation"""
+	st.subheader("An ML Project")
 	html_temp = """
 	<div style="background-color:black;padding:20px">
-	<h3 style="color:white;text-align:center;">London Airbnb Price Estimation With Geospatial Analysis </h3>
+	<h3 style="color:white;text-align:center;">London Airbnb Price Estimation </h3>
 	</div>
 	"""
 	st.markdown(html_temp,unsafe_allow_html=True)
